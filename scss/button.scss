@@ -51,12 +51,29 @@ $space: 0.5px;
    }
 }
 
+.mobile-icons li {
+	font-size: 2em;
+	margin-right: 9px;
+}
 
+.fa-user-plus {
+	color: #fff;
+	background-color:$button-color;
+	width: 90px;
+	height:40px;
+	text-align:center;
+	padding-top:12px;
+	border-radius: 6px;
+}
 
+.fa-pencil-square-o {
+	color: $button-color;
+	border: 1px solid $button-color;
+	@extend .fa-user-plus;
+	background-color:#fff; 
+}
 
-
-
-
-
-
+.fa-cog {
+	color: $text-color;
+}
 

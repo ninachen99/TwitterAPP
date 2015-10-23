@@ -35,3 +35,24 @@
   .follow-button .fa-cog {
     font-size: 1.2em;
     transform: translateY(-10px); }
+
+.mobile-icons li {
+  font-size: 2em;
+  margin-right: 9px; }
+
+.fa-user-plus, .fa-pencil-square-o {
+  color: #fff;
+  background-color: #328dc7;
+  width: 90px;
+  height: 40px;
+  text-align: center;
+  padding-top: 12px;
+  border-radius: 6px; }
+
+.fa-pencil-square-o {
+  color: #328dc7;
+  border: 1px solid #328dc7;
+  background-color: #fff; }
+
+.fa-cog {
+  color: #667580; }

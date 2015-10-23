@@ -1,3 +1,13 @@
+$button-color: #328dc7;
+
+.mobile-content{
+  display:none;
+}
+
+.mobile-nav ul li {
+    display:none;
+}
+
 @media screen and (max-width: 480px) {
    .main-nav {
  	display: none;
@@ -29,10 +39,33 @@
    /* mobile extra content in html*/
    .mobile-content {
     display: block;
+    transform:translateX(40px);
+    margin:30px 15px;
    }
-   .mobile-buttons{
+   .firm-name {
+    margin-top: 20px;
+   }
+   .mobile-icons ul li{
     display:inline-block;
+    transform:translateX(195px);
    }
+   .mobile-intro{
+    margin-bottom: 9px;
+   }
+   .mobile-intro h1 {
+    line-height: 10px;
+    font-size: 2em;
+   }
+   .intro-detail {
+    margin-top: 8px;
+   }
+   .mobile-link {
+    color: $button-color;
+   }
+   .mobile-location {
+    margin: 8px 0;
+   }
+   
    .profile-tweets {
     margin-top: 230px;
     width:100%;
@@ -45,17 +78,15 @@
    .profile.bg {
      background-size:cover;
    }
+   /*mobile footer */ 
+   .mobile-nav  ul li {
+     display: inline-block;
+     position: absolute;
+     bottom:0;
+   }
+   
 }
 
-.mobile-nav ul li {
-    display:none;
- @media screen and (max-width: 480px) {
-     display: inline-block;
-     position: relative;
-     bottom:0;
-  }
-}
-.mobile-content{
-  display:none;
-}
+
+
 

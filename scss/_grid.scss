@@ -1,0 +1,95 @@
+$container-width: 1024px;
+$row-width: 100%;
+.row {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.container {
+    width: 100%;
+    max-width: $container-width;
+    margin: 0 auto;
+}
+
+.col-1 {
+    width: $row-width/12;
+    flex: 0;
+}
+
+.col-2 {
+    width: $row-width/11;
+    flex: 1;
+}
+
+.col-3 {
+    width: $row-width/10;
+    flex: 2;
+}
+
+.col-4 {
+    width: $row-width/9;
+    flex: 3;
+}
+
+.col-5 {
+    width: $row-width/8;
+    flex: 4;
+}
+
+.col-6 {
+    width: $row-width/7;
+    flex: 5;
+}
+
+.col-7 {
+    width: $row-width/6;
+    flex: 6;
+}
+
+.col-8 {
+    width: $row-width/5;
+    flex: 7;
+}
+
+.col-9 {
+    width: $row-width/4;
+    flex: 8;
+}
+
+.col-10 {
+    width: $row-width/3;
+    flex: 9;
+}
+
+.col-11 {
+    width: $row-width/2;
+    flex: 10;
+}
+
+.col-12 {
+    width: $row-width;
+    flex: 11;
+}
+
+@media screen and (max-width: 480px) {
+    .row {
+        display: block;
+        width: 100%;
+    }
+    .col-1,
+    .col-2,
+    .col-3,
+    .col-4,
+    .col-5,
+    .col-6,
+    .col-7,
+    .col-8,
+    .col-9,
+    .col-10,
+    .col-11,
+    .col-12 {
+        width: $row-width;
+    }
+}

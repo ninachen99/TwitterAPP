@@ -1,0 +1,11 @@
+footer li {
+  display: inline-block;
+  list-style: none;
+  margin: 3px;
+  font-size: 0.9em; }
+
+.follows {
+  margin-bottom: 6px; }
+
+.trends {
+  margin-bottom: 10px; }

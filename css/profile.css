@@ -1,0 +1,36 @@
+.firm-intro {
+  margin-top: -180px; }
+
+.profile-card {
+  margin-bottom: 20px; }
+
+.firm-name {
+  margin: 10px 0; }
+
+.intro-detail {
+  margin-bottom: 8px; }
+
+.info {
+  margin-bottom: 6px; }
+
+.link {
+  color: #318dc8; }
+
+.specs {
+  color: #dee4e9; }
+
+.followers {
+  margin: 25px 0; }
+
+.fa-check-circle-o {
+  color: #318dc8; }
+
+/* show this media query for laptop*/
+.media-laptop {
+  display: none; }
+
+.follow-trends {
+  margin: 10px 0; }
+
+.profile-tweets {
+  margin: 10px 0; }

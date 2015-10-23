@@ -1,0 +1,73 @@
+$nav-bgColor: #fff;
+
+.main-nav {
+    li {
+        display: inline-block;
+        padding:9px;
+    }
+    
+}
+
+
+
+/* main nav positioning*/
+
+.text-left {
+    margin-top:20px;
+}
+
+.text-center {
+    margin-top:20px;
+}
+
+.text-right {
+    margin-top:9px;
+}
+
+form  {
+    transform:translateY(-10px);
+}
+
+.profile-bg {
+    background:url('../images/hero.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 463px;
+}
+
+a {
+    text-decoration: none;
+    color:$text-color;
+}
+
+.fa-twitter {
+    color: $tweet-color;
+    padding-top: 10px;
+    font-size:1.5em;
+}
+
+.search-box {
+    display: inline-block;
+    list-style: none;
+    transform:translateX(4em);
+}
+
+/* sub nav-list in the middle of the page*/
+.nav-list {
+    transform: translateX(60px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

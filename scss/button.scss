@@ -1,0 +1,62 @@
+$button-color: #328dc7;
+$button-text: #fff;
+$text-color: #667580;
+
+$space: 0.5px;
+.button {
+	background-color: $button-color;
+	color: $button-text;
+	border-radius: 2px;
+	text-align: center;
+}
+
+.tweet {
+	width: 93px;
+	height: 30px;
+}
+
+.tweet-to {
+	@extend .button;
+	padding:7px 23px;
+}
+
+.buttons  li {
+	display: inline-block;
+}
+
+.msg-icon {
+	transform: translateY(6px);
+}
+/* sub navigation before the api feeds*/
+
+.sub-nav ul li {
+	display: inline-block;
+	margin: 1em;
+	letter-spacing:$space;
+}
+
+.fa-cog {
+	color: $text-color;
+}
+
+.follow-button {
+	transform:translateX(140px);
+   ul li {
+	display: inline-block;
+	list-style:none;
+	margin: 13px;
+   } .fa-cog {
+   	font-size:1.2em;
+   	transform:translateY(-10px);
+   }
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>twitter profile</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <!--navigation header-->
+
+    <nav class="main-nav row">
+        <div class="container">
+          <div class="row"> 
+            <div class="col-4 text-left">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <span><i class="fa fa-home"></i>&nbsp; Home</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span><i class="fa fa-bell"></i>&nbsp; Notifications</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span><i class="fa fa-envelope"></i>&nbsp; Messages</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div class="col-3 text-center">
+                <span> <i class="fa fa-twitter"></i></span>
+            </div>
+
+            <div class="col-5 text-right">
+              <div class="search-box">
+                <ul>
+                    <li>
+                       <form>
+                            <input class="search-form" placeholder="Search Twitter">
+                            <a href="#"><i class="fa fa-search"></i></a>
+                       </form>
+                    </li>
+                    <li class="small-logo">
+                      <span ><img src= "images/logoS.jpg"/></span>
+                    </li>
+                    <li>
+                        <a href="#" class="button tweet"><img src="images/tweet.png"/></a>
+                    </li>
+                 </ul>
+               </div>
+            </div>
+
+   </div>
+ </div>
+</nav>
+
+<!--this is the hero image in header--> 
+    <header role="banner" class="profile-bg"></header>
+    <!--profile navigation-->
+    <section class="row profile-nav">
+        <div class="container"><div class="row"> 
+         <div class="col-3">&nbsp;</div>
+          <div class="col-6 sub-nav">
+            <ul class="nav-list">
+                <li>
+                    <a href="#">
+                        <span>Tweets</span>
+                        <span class="numbers">34.7K</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span>Following</span>
+                        <span class="numbers">685</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span>Followers</span>
+                        <span class="numbers">889</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span>Favorites</span>
+                        <span class="numbers">247</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span>Lists</span>
+                        <span class="numbers">2</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="col-3 follow-button">
+
+               <ul class="t-button">
+                    <li><i class="fa fa-cog"></i></li>
+                    <li><a href="https://twitter.com/NinaGittins1" class="twitter-follow-button" data-show-count="false" data-size="large" data-show-screen-name="false">Follow @NinaGittins1</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></li>
+              </ul>
+        </div>
+    </section>
+
+    <!--profile section with company info-->
+    <div class="row tweetfeed">
+     <div class="container">
+      <div class="row">    
+        <section class="col-3 profile-intro">
+          <div class="firm-intro">
+              <div class="logo-large">
+                <img src="images/Avatar.jpg"/>
+              </div>
+            <div class="media-wrapper">
+              <div class="profile-card">
+                   <div class="firm-name">
+                     <h1>Every Interaction &nbsp;<i class="fa fa-check-circle-o"></i></h1>
+                     <h3>@EveryInteract <span>FOLLOWING YOU</span></h3>
+                   </div>
+                    <P class="intro-detail">UX Design studio focussed problem solving creativity. Design to us is how can we make things "work" amazing.</P>
+                
+                    <div class="location info"><i class="fa fa-map-marker specs"></i>&nbsp;&nbsp;London UK</div>
+                    <div class="link info"><i class="fa fa-paperclip"></i>&nbsp;&nbsp;everyinteraction.com</div>
+                    <div class="join-date info"><i class="fa fa-clock-o specs"></i>&nbsp;&nbsp;Joined May 2008</div>
+             </div>
+            <div class="buttons">
+              <ul class="buttons">   
+                  <li><a  class="tweet-to" href="https://twitter.com/intent/tweet?screen_name=us" class="twitter-mention-button" data-size="large">Tweet to</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></li>
+                  <li><a href="#" class="button tweet-to"><img class="msg-icon" src="images/Message.png"/> Message</a></li>
+              </ul>
+          </div>
+          <div class="follow-info">
+             <div class="followers">
+               <img src="images/Followers.jpg"/>
+             </div>
+             <div class="photos-videos">
+               <img src="images/Gallery.jpg"/>
+             </div>
+          </div>
+        </div>
+<!--media query for laptop show follow and trends!!!!!!!!!!!!!!!!!!!!!!!!!-->
+  <section class="col-3 follow-trends media-laptop"> 
+        <aside class="follows">
+            <div class="who-to-follow">
+                <div class="follow-head media-img">
+                    <img src="images/follow.jpg"/>
+                </div>
+                <div class="follow-context"></div>
+            </div>
+        </aside>
+
+    <!--UK trends-->
+
+        <aside class="trends">
+          <div class="uk-trend">
+             <div class="trend-head">
+                <div class="media-img">
+                    <img src="images/Trends.jpg"/>
+                </div>
+             </div>
+             <div class="trend-context"></div>
+          </div>
+       </aside>
+       <footer>
+            <ul>
+                <li><a href="#">&copy; 2015 Twitter</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">Ads info</a></li>
+            </ul>
+      </footer>
+    </section>    <!--end of laptop media query-->
+  </section>
+
+    <!--profile section with tweet context-->
+
+   <section class="col-6 profile-tweets">
+        <div class="profile-heading">
+    <!---mobile page content top!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!, display none-->
+        <div class="mobile-content">
+            <div class="mobile-icons">
+                <ul>
+                  <li><i class="fa fa-cog"></i></li>
+                  <li><img src="images/Message.png"/></li>
+                  <li><i class="fa fa-user-plus"></i></li>
+                </ul>
+            </div>
+             <div class="firm-name mobile-top">
+                      <div>
+                         <h1>Every Interaction &nbsp;<i class="fa fa-check-circle-o"></i></h1>
+                         <h3>@EveryInteract <span>FOLLOWING YOU</span></h3>
+                       </div>
+                        <P class="intro-detail">UX Design studio focussed problem solving creativity. Design to us is how can we make things "work" amazing.</P>
+                        <p> London, UK <span>everyinteraction.com</span></p>
+                        <p>718 Following <span> 1,068 Followers</span></p>
+              </div>
+         </div>
+    <!---mobile page buttons!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!, display none-->
+            <div class="mobile-buttons" style="display:none">
+               <ul>
+                 <li>Tweets</li>
+                 <li>Media</li>
+                 <li>Favoriates</li>
+               </ul>
+            </div>
+    <!--end of mobile content!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+            <ul id="tweets">
+                <li>
+                    <!--<a href="#" id="tweet-list">Tweets</a>-->
+                    <a class="twitter-timeline" href="https://twitter.com/EveryInteract" data-widget-id="656134872696770560" data-chrome="noscrollbar" height="900px">Tweets by @EveryInteract</a>
+                    <script>
+                        ! function (d, s, id) {
+                            var js, fjs = d.getElementsByTagName(s)[0],
+                                p = /^http:/.test(d.location) ? 'http' : 'https';
+                            if (!d.getElementById(id)) {
+                                js = d.createElement(s);
+                                js.id = id;
+                                js.src = p + "://platform.twitter.com/widgets.js";
+                                fjs.parentNode.insertBefore(js, fjs);
+                            }
+                        }(document, "script", "twitter-wjs");
+                    </script>
+                </li>
+
+                <!-- this part should come with api data
+                <li>
+                    <a href="#">Tweets &amp; replies</a>
+                </li>
+                <li>
+                    <a href="#">Photos &amp; videos</a>
+                </li>
+                -->
+
+            </ul>
+        </div>
+        <div class="tweet-context"></div>
+   </section>
+
+    <!--who to follow-->
+   <section class="col-3 follow-trends"> 
+        <aside class="follows">
+            <div class="who to follow">
+                <div class="follow-head">
+                    <img src="images/follow.jpg"/>
+                </div>
+                <div class="follow-context"></div>
+            </div>
+        </aside>
+
+    <!--UK trends-->
+
+        <aside class="trends">
+          <div class="uk-trend">
+             <div class="trend-head">
+                <div>
+                    <img src="images/Trends.jpg"/>
+                </div>
+             </div>
+             <div class="trend-context"></div>
+          </div>
+       </aside>
+       <footer>
+            <ul>
+                <li><a href="#">&copy; 2015 Twitter</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">Ads info</a></li>
+            </ul>
+      </footer>
+      <!--Mobile media query for mobile's nav on the bottom of the page!!!!!!!!!!!!!!!!!-->
+    <nav class="mobile-nav row">
+        <ul>
+            <li><span><i class="fa fa-home"></i></span>Home</li>
+            <li><span><i class="fa fa-bell"></i></span>Notifications</li>
+            <li><span><i class="fa fa-envelope"></i></span>Messages</li>
+            <li><span><i class="fa fa-user"></i></span>Me</li>
+        </ul>
+    </nav>
+  </section>    
+  </div> 
+ </div>
+</div>
+
+</body>
+</html>

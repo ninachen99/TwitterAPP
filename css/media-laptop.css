@@ -1,0 +1,44 @@
+@media screen and (max-width: 1024px) {
+  .media-laptop {
+    display: block;
+    width: inherit;
+    margin: 10px 0; }
+
+  .media-img img {
+    width: 259px; }
+
+  .profile-nav ul li {
+    transform: translateX(9em); }
+
+  .profile-intro {
+    margin: 0 20px; }
+
+  /*the buttons under company card.*/
+  .buttons li {
+    display: block;
+    margin: 10px 0; }
+
+  .follow-info img {
+    width: 98%; }
+
+  .main-nav {
+    display: none; }
+
+  .row {
+    overflow: hidden; }
+
+  .logo-large {
+    transform: translateY(10px);
+    position: absolute; }
+
+  .media-wrapper {
+    transform: translateY(230px); }
+
+  .profile-bg {
+    max-width: 100%; }
+
+  .profile-tweets {
+    margin-bottom: 60px; } }
+@media screen and (max-width: 1200px) {
+  .follow-trends {
+    display: none; } }

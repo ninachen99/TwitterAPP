@@ -1,0 +1,50 @@
+$text-color: #667580;
+$tweet-color: #51abf1;
+$my-color: #292f33;
+$tag-color: #dee4e9;
+$para: #444a4e;
+
+body {
+	font-family: 'Lato', sans-serif;
+	font-size: 13px;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+ h1 {
+   color: $my-color;
+   font-size: 1.5em;
+ }
+
+ h3 {
+   color: $tag-color;
+   font-size: 0.9em;
+ }
+ 
+ p {
+   color: $para;
+   font-size:1.1em;
+ }
+
+ .nav-list span {
+   font-size: 1em;
+   text-transform:uppercase;
+   display: block;
+   text-align:center;
+ }
+
+.numbers {
+   color: $tweet-color;
+   padding-top:3px;
+}
+

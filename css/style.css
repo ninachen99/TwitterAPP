@@ -1,0 +1,408 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+html {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+q, blockquote {
+  quotes: none; }
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+
+a img {
+  border: none; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block; }
+
+.row {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row; }
+
+.container {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto; }
+
+.col-1 {
+  width: 8.33333%;
+  flex: 0; }
+
+.col-2 {
+  width: 9.09091%;
+  flex: 1; }
+
+.col-3 {
+  width: 10%;
+  flex: 2; }
+
+.col-4 {
+  width: 11.11111%;
+  flex: 3; }
+
+.col-5 {
+  width: 12.5%;
+  flex: 4; }
+
+.col-6 {
+  width: 14.28571%;
+  flex: 5; }
+
+.col-7 {
+  width: 16.66667%;
+  flex: 6; }
+
+.col-8 {
+  width: 20%;
+  flex: 7; }
+
+.col-9 {
+  width: 25%;
+  flex: 8; }
+
+.col-10 {
+  width: 33.33333%;
+  flex: 9; }
+
+.col-11 {
+  width: 50%;
+  flex: 10; }
+
+.col-12 {
+  width: 100%;
+  flex: 11; }
+
+@media screen and (max-width: 480px) {
+  .row {
+    display: block;
+    width: 100%; }
+
+  .col-1,
+  .col-2,
+  .col-3,
+  .col-4,
+  .col-5,
+  .col-6,
+  .col-7,
+  .col-8,
+  .col-9,
+  .col-10,
+  .col-11,
+  .col-12 {
+    width: 100%; } }
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 13px; }
+
+.text-left {
+  text-align: left; }
+
+.text-right {
+  text-align: right; }
+
+.text-center {
+  text-align: center; }
+
+h1 {
+  color: #292f33;
+  font-size: 1.5em; }
+
+h3 {
+  color: #dee4e9;
+  font-size: 0.9em; }
+
+p {
+  color: #444a4e;
+  font-size: 1.1em; }
+
+.nav-list span {
+  font-size: 1em;
+  text-transform: uppercase;
+  display: block;
+  text-align: center; }
+
+.numbers {
+  color: #51abf1;
+  padding-top: 3px; }
+
+.main-nav li {
+  display: inline-block;
+  padding: 9px; }
+
+/* main nav positioning*/
+.text-left {
+  margin-top: 20px; }
+
+.text-center {
+  margin-top: 20px; }
+
+.text-right {
+  margin-top: 9px; }
+
+form {
+  transform: translateY(-10px); }
+
+.profile-bg {
+  background: url("../images/hero.jpg") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 463px; }
+
+a {
+  text-decoration: none;
+  color: #667580; }
+
+.fa-twitter {
+  color: #51abf1;
+  padding-top: 10px;
+  font-size: 1.5em; }
+
+.search-box {
+  display: inline-block;
+  list-style: none;
+  transform: translateX(4em); }
+
+/* sub nav-list in the middle of the page*/
+.nav-list {
+  transform: translateX(60px); }
+
+.button, .tweet-to {
+  background-color: #328dc7;
+  color: #fff;
+  border-radius: 2px;
+  text-align: center; }
+
+.tweet {
+  width: 93px;
+  height: 30px; }
+
+.tweet-to {
+  padding: 7px 23px; }
+
+.buttons li {
+  display: inline-block; }
+
+.msg-icon {
+  transform: translateY(6px); }
+
+/* sub navigation before the api feeds*/
+.sub-nav ul li {
+  display: inline-block;
+  margin: 1em;
+  letter-spacing: 0.5px; }
+
+.fa-cog {
+  color: #667580; }
+
+.follow-button {
+  transform: translateX(140px); }
+  .follow-button ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 13px; }
+  .follow-button .fa-cog {
+    font-size: 1.2em;
+    transform: translateY(-10px); }
+
+.firm-intro {
+  margin-top: -180px; }
+
+.profile-card {
+  margin-bottom: 20px; }
+
+.firm-name {
+  margin: 10px 0; }
+
+.intro-detail {
+  margin-bottom: 8px; }
+
+.info {
+  margin-bottom: 6px; }
+
+.link {
+  color: #318dc8; }
+
+.specs {
+  color: #dee4e9; }
+
+.followers {
+  margin: 25px 0; }
+
+.fa-check-circle-o {
+  color: #318dc8; }
+
+/* show this media query for laptop*/
+.media-laptop {
+  display: none; }
+
+.follow-trends {
+  margin: 10px 0; }
+
+.profile-tweets {
+  margin: 10px 0; }
+
+footer li {
+  display: inline-block;
+  list-style: none;
+  margin: 3px;
+  font-size: 0.9em; }
+
+.follows {
+  margin-bottom: 6px; }
+
+.trends {
+  margin-bottom: 10px; }
+
+/* the tweet feed should come from api*/
+.twitter-timeline {
+  display: block;
+  margin-left: 40px; }
+
+.search-form {
+  border-radius: 15px;
+  width: 15em;
+  height: 2em;
+  background: #f5f8fa; }
+
+@media screen and (max-width: 480px) {
+  .main-nav {
+    display: none; }
+
+  .follow-trends {
+    display: none; }
+
+  .followers {
+    display: none; }
+
+  .photos-videos {
+    display: none; }
+
+  .profile-nav {
+    display: none; }
+
+  .t-button li {
+    display: none; }
+
+  .profile-bg {
+    background-size: cover; }
+
+  .profile-card {
+    display: none; }
+
+  .buttons {
+    display: none; }
+
+  /* mobile extra content in html*/
+  .mobile-content {
+    display: block; }
+
+  .profile-tweets {
+    margin-top: 230px;
+    width: 100%;
+    transform: translateX(-40px); }
+
+  .logo-large {
+    transform: translateY(70px); }
+
+  /* header image*/
+  .profile.bg {
+    background-size: cover; } }
+.mobile-nav ul li {
+  display: none; }
+  @media screen and (max-width: 480px) {
+    .mobile-nav ul li {
+      display: inline-block;
+      position: relative;
+      bottom: 0; } }
+
+.mobile-content {
+  display: none; }
+
+@media screen and (max-width: 1024px) {
+  .media-laptop {
+    display: block;
+    width: inherit;
+    margin: 10px 0; }
+
+  .media-img img {
+    width: 259px; }
+
+  .profile-nav ul li {
+    transform: translateX(9em); }
+
+  .profile-intro {
+    margin: 0 20px; }
+
+  /*the buttons under company card.*/
+  .buttons li {
+    display: block;
+    margin: 10px 0; }
+
+  .follow-info img {
+    width: 98%; }
+
+  .main-nav {
+    display: none; }
+
+  .row {
+    overflow: hidden; }
+
+  .logo-large {
+    transform: translateY(10px);
+    position: absolute; }
+
+  .media-wrapper {
+    transform: translateY(230px); }
+
+  .profile-bg {
+    max-width: 100%; }
+
+  .profile-tweets {
+    margin-bottom: 60px; } }
+@media screen and (max-width: 1200px) {
+  .follow-trends {
+    display: none; } }
+.tweetfeed {
+  background: #f4f7fa; }
+
+.twitter-timeline {
+  overflow: hidden;
+  position: relative;
+  width: 100%; }

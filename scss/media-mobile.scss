@@ -1,0 +1,57 @@
+@media screen and (max-width: 480px) {
+   .main-nav {
+ 	display: none;
+   }
+   .follow-trends {
+   	display: none;
+   }
+   .followers {
+   	display: none;
+   }
+   .photos-videos {
+   	display:none;
+   }
+   .profile-nav {
+   	display:none;
+   }
+   .t-button li {
+   	display:none;
+   }
+   .profile-bg {
+   	background-size:cover;
+   }
+   .profile-card {
+   	display: none;
+   }
+   .buttons{
+   	display:none;
+   }
+   /* mobile extra content in html*/
+   .mobile-content {
+    display: block;
+   }
+   .profile-tweets {
+    margin-top: 230px;
+    width:100%;
+    transform:translateX(-40px);
+   }
+   .logo-large {
+     transform: translateY(70px);
+   }
+   /* header image*/
+   .profile.bg {
+     background-size:cover;
+   }
+}
+
+.mobile-nav ul li {
+    display:none;
+ @media screen and (max-width: 480px) {
+     display: inline-block;
+     position: relative;
+     bottom:0;
+  }
+}
+.mobile-content{
+  display:none;
+}

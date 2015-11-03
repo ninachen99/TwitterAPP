@@ -63,7 +63,7 @@ $(function(){
     });
           
 });
-
+/* used https://gist.github.com/442463.git */
 
 function escapeHTML(text) {
     return $('<div/>').text(text).html()

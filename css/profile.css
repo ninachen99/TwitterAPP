@@ -14,16 +14,31 @@
   margin-bottom: 6px; }
 
 .link {
-  color: #318dc8; }
+  color: #318dc8;
+  cursor: pointer; }
 
 .specs {
-  color: #dee4e9; }
+  color: #8899a6; }
 
 .followers {
   margin: 25px 0; }
 
+.followers img {
+  width: 230px;
+  cursor: pointer; }
+
+.photos-videos img {
+  width: 230px;
+  cursor: pointer; }
+
 .fa-check-circle-o {
   color: #318dc8; }
+
+.firm-link {
+  color: #318dc8; }
+
+.firm-link:hover {
+  border-bottom: 1px solid #318dc8; }
 
 /* show this media query for laptop*/
 .media-laptop {

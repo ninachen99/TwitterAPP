@@ -33,6 +33,9 @@
     display: none; }
 
   /* mobile extra content in html*/
+  #tweets {
+    transform: translateX(40px); }
+
   .mobile-content {
     display: block;
     transform: translateX(40px);
@@ -66,8 +69,10 @@
     width: 100%;
     transform: translateX(-40px); }
 
-  .logo-large {
-    transform: translateY(70px); }
+  .logo-large img {
+    width: 150px;
+    height: 150px;
+    transform: translateY(120px); }
 
   /* header image*/
   .profile.bg {

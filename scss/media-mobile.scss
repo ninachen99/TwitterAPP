@@ -37,6 +37,9 @@ $button-color: #328dc7;
    	display:none;
    }
    /* mobile extra content in html*/
+   #tweets {
+     transform:translateX(40px);
+   }
    .mobile-content {
     display: block;
     transform:translateX(40px);
@@ -72,7 +75,11 @@ $button-color: #328dc7;
     transform:translateX(-40px);
    }
    .logo-large {
-     transform: translateY(70px);
+     img {
+      width:150px;
+      height:150px;
+      transform: translateY(120px);
+     }
    }
    /* header image*/
    .profile.bg {

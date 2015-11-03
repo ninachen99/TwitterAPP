@@ -1,6 +1,6 @@
 $link-color:#318dc8;
 $bg-color:#f4f7fa;
-$tag-color: #dee4e9;
+$tag-color: #8899a6;
 
 .firm-intro {
 	margin-top:-180px;
@@ -24,6 +24,7 @@ $tag-color: #dee4e9;
 
 .link {
 	color: $link-color;
+	cursor:pointer;
 }
 
 .specs {
@@ -32,12 +33,25 @@ $tag-color: #dee4e9;
 
 .followers {
 	margin: 25px 0;
+} 
+.followers img {
+	width: 230px;
+	cursor:pointer;
+}
+.photos-videos img {
+	width: 230px;
+	cursor:pointer;
 }
 
 .fa-check-circle-o {
 	color: $link-color;
 }
-
+.firm-link {
+	color: $link-color;
+}
+.firm-link:hover {
+	border-bottom: 1px solid $link-color;
+}
 /* show this media query for laptop*/
 .media-laptop {
 	display: none;

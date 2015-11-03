@@ -5,7 +5,9 @@ footer li {
   font-size: 0.9em; }
 
 .follows {
-  margin-bottom: 6px; }
+  margin-bottom: 6px;
+  cursor: pointer; }
 
 .trends {
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  cursor: pointer; }

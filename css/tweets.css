@@ -1,4 +1,137 @@
-/* the tweet feed should come from api*/
-.twitter-timeline {
-  display: block;
-  margin-left: 40px; }
+/* the tweet feed comes from api*/
+#tweets {
+  text-align: left;
+  background-color: #fff;
+  margin: 0 10px; }
+
+.user-name:hover {
+  cursor: pointer;
+  color: #0084B4; }
+
+.tweet-item {
+  display: inline-block;
+  background-clip: padding-box;
+  border-bottom: 1px solid #f5f8fa;
+  width: 100%; }
+
+.tweet-item:first-child {
+  border-top: 1px solid #f5f8fa; }
+
+.tweet-info {
+  transform: translateY(-45px);
+  text-align: left;
+  margin-left: 50px; }
+
+.tweet-item:hover {
+  background: #f5f8fa; }
+
+.screen-name {
+  color: #8899a6;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  display: inline-block; }
+
+a {
+  color: #0084B4; }
+
+.time-stamp {
+  color: #8899a6;
+  display: inline-block;
+  font-size: 1em;
+  font-weight: 400; }
+
+.time-stamp::before {
+  content: "\00b7 ";
+  margin: 0 2px; }
+
+.time-stamp:hover {
+  color: #0084B4; }
+
+.screen-name::before {
+  content: "@";
+  margin-right: -3px; }
+
+.user-name {
+  font-size: 14px;
+  font-weight: 600;
+  color: #292f33;
+  padding: 5px; }
+
+.user-name a {
+  color: #0084B4; }
+
+.user-name .user-link:hover {
+  text-decoration: underline; }
+
+.tweet-text {
+  line-height: 1.69em;
+  font-weight: 400;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.25em;
+  letter-spacing: 0.01em;
+  padding: 5px;
+  width: 98%; }
+
+.tweet-text .user-link {
+  color: #0084B4; }
+
+#screen-link {
+  color: #8899a6; }
+
+a.show_url {
+  color: #0084B4; }
+
+.show_url:hover {
+  border-bottom: 1px solid #0084B4; }
+
+/* below is the headers of tweets, photos and replies*/
+.tweet-head {
+  display: inline-block;
+  font-size: 1.38em;
+  font-weight: 400;
+  line-height: 1;
+  padding: 15px 15px 12px;
+  cursor: pointer; }
+
+.tweet-head li {
+  display: inline-block; }
+
+.tweet-head:hover {
+  color: #0084B4;
+  text-decoration: underline; }
+
+#active {
+  color: #0084B4; }
+
+/* below is foooter of the tweets: reply, retweet and more*/
+.tweet-footer i {
+  color: #8899a6;
+  font-size: 1.23em;
+  line-height: 1;
+  padding: 0 2px;
+  cursor: pointer;
+  margin-right: 2.5em;
+  padding-bottom: 3px; }
+
+.fa-reply:hover, .fa-ellipsis-h:hover {
+  color: #0084B4; }
+
+.fa-retweet:hover {
+  color: #5c913b; }
+
+.fa-star:hover {
+  color: #ffac33; }
+
+.tweet-footer:hover {
+  cursor: pointer; }
+
+.tweet-footer {
+  transform: translateX(53px);
+  margin-top: -25px;
+  margin-bottom: 5px; }
+
+/* tweet logo */
+.tweet-logo {
+  transform: translateY(10px);
+  margin-left: 0 3px; }

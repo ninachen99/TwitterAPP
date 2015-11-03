@@ -1,5 +1,5 @@
 $nav-bgColor: #fff;
-
+$button-color: #328dc7;
 .main-nav {
     li {
         display: inline-block;
@@ -35,9 +35,22 @@ form  {
     height: 463px;
 }
 
-a {
+.home-nav {
     text-decoration: none;
     color:$text-color;
+}
+
+.home-nav:hover {
+    color:$button-color;
+    border-bottom: 4px solid $button-color;
+    padding-bottom:22px;
+    transition: all 0.5s ease-out;
+}
+
+a {
+
+   text-decoration: none;
+   color:$text-color;
 }
 
 .fa-twitter {
@@ -54,13 +67,24 @@ a {
 
 /* sub nav-list in the middle of the page*/
 .nav-list {
-    transform: translateX(60px);
+    transform: translateX(15px);
+    height:60px;
+}
+.nav-list li:hover {
+    border-bottom: 4px solid $button-color;
+    transition: all 0.15s ease-in-out;
+    padding-bottom:14px;
+}
+
+/* footer in the very bottom of trends*/
+
+.main-footer .footer-b:hover {
+    color: $button-color;
+    text-decoration: underline;
 }
 
 
-
-
-
+/* scroll to top bar */
 
 
 

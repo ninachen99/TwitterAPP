@@ -6,30 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>twitter profile</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="js/app.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link href="css/style.css" rel="stylesheet" type="text/css">
+    
 </head>
 
 <body>
     <!--navigation header-->
-
+ 
     <nav class="main-nav row">
         <div class="container">
           <div class="row"> 
             <div class="col-4 text-left">
                 <ul>
                     <li>
-                        <a href="#">
+                        <a class="home-nav" href="#">
                             <span><i class="fa fa-home"></i>&nbsp; Home</span>
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a class="home-nav" href="#">
                             <span><i class="fa fa-bell"></i>&nbsp; Notifications</span>
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a class="home-nav" href="#">
                             <span><i class="fa fa-envelope"></i>&nbsp; Messages</span>
                         </a>
                     </li>
@@ -65,6 +67,7 @@
 </nav>
 
 <!--this is the hero image in header!!!!!!!!!!!!!!!!!!!--> 
+
     <header role="banner" class="profile-bg"></header>
     <!--profile navigation!!!!!!!!!!!!!!!!!!!!!!-->
     <section class="row profile-nav">
@@ -134,7 +137,7 @@
                     <P class="intro-detail">UX Design studio focussed problem solving creativity. Design to us is how can we make things "work" amazing.</P>
                 
                     <div class="location info"><i class="fa fa-map-marker specs"></i>&nbsp;&nbsp;London UK</div>
-                    <div class="link info"><i class="fa fa-paperclip"></i>&nbsp;&nbsp;everyinteraction.com</div>
+                    <div class="link info"><i class="fa fa-paperclip"></i>&nbsp;&nbsp;<a class="firm-link" href="http://www.everyinteraction.com/">everyinteraction.com</a></div>
                     <div class="join-date info"><i class="fa fa-clock-o specs"></i>&nbsp;&nbsp;Joined May 2008</div>
              </div>
             <div class="buttons">
@@ -221,9 +224,10 @@
 
     <!--end of mobile content!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
             <ul id="tweets">
+            <!--
                 <li>
-                    <!--<a href="#" id="tweet-list">Tweets</a>-->
-                    <a class="twitter-timeline" href="https://twitter.com/EveryInteract" data-widget-id="656134872696770560" data-chrome="noscrollbar" height="900px">Tweets by @EveryInteract</a>
+                    
+                   <a class="twitter-timeline" href="https://twitter.com/EveryInteract" data-widget-id="656134872696770560" data-chrome="noscrollbar" height="900px">Tweets by @EveryInteract</a>
                     <script>
                         ! function (d, s, id) {
                             var js, fjs = d.getElementsByTagName(s)[0],
@@ -236,17 +240,10 @@
                             }
                         }(document, "script", "twitter-wjs");
                     </script>
-                </li>
-
-                <!-- this part should come with api data
-                <li>
-                    <a href="#">Tweets &amp; replies</a>
-                </li>
-                <li>
-                    <a href="#">Photos &amp; videos</a>
-                </li>
-                -->
-
+                </li> -->
+               <li class="tweet-head" id="active">Tweets</li>
+               <li class="tweet-head">Tweets &amp; replies</li>
+               <li class="tweet-head">Photos &amp; videos</li>
             </ul>
         </div>
       <div class="tweet-context"></div>
@@ -275,14 +272,15 @@
              <div class="trend-context"></div>
           </div>
        </aside>
-       <footer>
+       <footer class="main-footer">
             <ul>
                 <li><a href="#">&copy; 2015 Twitter</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Help</a></li>
-                <li><a href="#">Ads info</a></li>
+                <li class="footer-b"><a href="#">About</a></li>
+                <li class="footer-b"><a href="#">Help</a></li>
+                <li class="footer-b"><a href="#">Ads info</a></li>
             </ul>
       </footer>
+
       <!--Mobile media query for mobile's nav on the bottom of the page!!!!!!!!!!!!!!!!!-->
     <nav class="mobile-nav row">
         <ul>
@@ -294,7 +292,14 @@
     </nav>
    </section>    
   </div> 
+ 
  </div>
  </div>
+ <!-- tweeter url parse calls-->
+
+ <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js"></script>
+ <script src="js/moment-twitter.js"></script>
+ <!--end call-->
+
 </body>
 </html>

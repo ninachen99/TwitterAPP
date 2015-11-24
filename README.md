@@ -4,6 +4,6 @@ Used Sass for the CSS
 Made the page fully responsive
 Used the Twitter API to populate the Tweets feed
 Applied for API key and use oAuth
-Used PHP, ajax, and javascript
+Used PHP, ajax, and javascript (PHP file is not attached here)
 Pull the tweets for any user ID
 Test project on a live server
